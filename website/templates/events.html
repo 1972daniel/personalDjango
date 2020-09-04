@@ -1,0 +1,187 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Events - Nu-Tech  &amp; Management Services</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <link href=" {% static 'website/assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'website/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+
+  
+  <link href="{% static 'website/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <link href="{% static 'website/assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+
+  <link href="{% static 'website/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+
+
+  <link href="{% static 'website/assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+
+  <link href=" {% static 'website/assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+
+  <link href="{% static 'website/assets/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+
+
+  <link href="{% static 'website/assets/vendor/venobox/venobox.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'website/assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MeFamily - v2.1.0
+  * Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+        
+
+      <h1 class="logo mr-auto"><a href="{% url 'home' %}">Daniel  Jere</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li><a href="{% url 'our_story' %}">Our Story</a></li>
+          <li class="active"><a href="{% url 'events' %}">Events</a>
+          </li>
+          <li><a href="{% url 'gallery' %}">Gallery</a></li>
+          <li class="drop-down"><a href="">Other Links</a>
+
+            <ul>
+              <li><a href="{% url 'testimonials' %}">Testimonials</a></li>
+              <li><a href="#">News</a></li>
+             
+              
+            </ul>
+
+          </li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Events</h2>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Events</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Event List Section ======= -->
+    <section id="event-list" class="event-list">
+      <div class="container">
+
+
+        <div class="row">
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src=" {% static 'website/assets/img/gevents-1.jpg' %}" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Daniel Jere- Certifacate Award !</h5>
+                <p class="font-italic text-center">Receiving Tevet Certificate - in Hardware  &amp; Maintainance Skills</p>
+                <p class="card-text">I love to Learn New Skills!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-img">
+                <img src="{% static 'website/assets/img/gevents-2.jpg' %}" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Informal Skills TEVET Students - Receiving Certificates</h5>
+                <p class="font-italic text-center">Conglatulations ! Boys &amp; Girls </p>
+                <p class="card-text">Keep the Fire Burning !!</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Event List Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Nu-Tech  &amp; Management Services </h3>
+      <p>we love to Code !!</p>
+      <div class="social-links">
+        <a href="https://twitter.com/danieljere7" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://web.facebook.com/daniel.jere.39/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/danieljere3/" class="instagram"><i class="bx bxl-instagram"></i></a>
+       
+        <a href="https://www.linkedin.com/in/daniel-jere-b772a330/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>2019 Daniel Jere.</span>
+        </strong>. All Rights Reserved
+      </div> 
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'website/assets/vendor/jquery/jquery.min.js' %}
+"></script>
+  <script src=" {% static 'website/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}
+"></script>
+  <script src="{% static 'website/assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+
+  <script src="{% static 'website/assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <script src="{% static 'website/assets/vendor/owl.carousel/owl.carousel.min.js' %}
+"></script>
+  <script src="{% static 'website/assets/vendor/venobox/venobox.min.js' %}"></script>
+
+  <script src="{% static 'website/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'website/assets/js/main.js' %}"></script>
+
+</body>
+
+</html>

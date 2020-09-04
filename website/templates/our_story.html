@@ -1,0 +1,348 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Our Story - Nu-Tech  &amp; Management Services </title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+
+  <link href="{% static 'website/assets/img/favicon.png' %}" rel="icon">
+  <link href="{% static 'website/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'website/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'website/assets/vendor/venobox/venobox.css' %}
+" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'website/assets/css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MeFamily - v2.1.0
+  * Template URL: https://bootstrapmade.com/family-multipurpose-html-bootstrap-template-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="{% url 'home' %}">Daniel Jere</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="{% url 'home' %}">Home</a></li>
+          <li class="active"><a href="{% url 'our_story' %}">Our Story</a></li>
+          <li><a href="{% url 'events' %}">Events</a></li>
+          <li><a href="{% url 'gallery' %}">Gallery</a></li>
+          <li class="drop-down"><a href="">Other Links</a><!-- .blank-link -->
+            
+            <ul>
+              <li><a href="{% url 'testimonials' %}">Testimonials</a></li>
+              <li><a href="#">News</a></li>
+             
+            </ul>
+
+          </li>
+          <li><a href="{% url 'contact' %}">Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Our Story</h2>
+          <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>Our Story</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Story Intro Section ======= -->
+    <section id="story-intro" class="story-intro">
+      <div class="container">
+
+
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="{% static 'website/assets/img/gintro.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>Introduction  &amp;  How I Started !!....</h3>
+            <p class="font-italic">
+             My Career as a Trainer, Started 2008,in a small Guest House - Room Number 7 with only 2 Desktop Computers and two Students. 
+            </p>
+            
+            <p>
+              Today I develops and teach Web Development and programming courses at Jenga Community Skills Development Centre.
+            </p>
+              <p>
+              Currently we have a new office and considerable number of  students,clients and equipments.
+            </p>
+              <p>
+
+               I love  my Job ,and love helping people to achieve their dreams!
+                <a href="{% url 'testimonials' %}">please click here for more info...</a>
+                </p>
+                 <p>
+              My goal is to help the youth live a Smart and independent life in this world of fast changing ICT developments!.I also want students acquire strong technical foundation skills in Hardware and Software. </p>
+
+                <p>
+               Iam an enthusiastic, passionate trainer with a wealth of experience and have good Track record of Success in the Tevet Informal Skills training programs"
+            </p>
+
+         
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Story Intro Section -->
+
+    <!-- ======= Featured Members Section ======= -->
+    <section id="featured-members" class="featured-members">
+      <div class="container">
+
+        <div class="row content">
+          <div class="col-lg-6">
+
+
+            <img src=" {% static 'website/assets/img/members/gfeatured-members-1.jpg' %}
+" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-3 pt-lg-0">
+            <h3>CLIENTS.</h3>
+            <p class="font-italic">
+              I provide ICT solutions to both small and large organisations locally.
+            </p>
+            <ul>
+              <li><i class="icofont-check"></i> TEVETA -Informal Skills Programs.</li>
+              <li><i class="icofont-check"></i> Jenga Community Skills Centre.</li>
+
+            <li><i class="icofont-check"></i> Evademaya.</li>
+            <li><i class="icofont-check"></i> Ugweru Computer College.</li>
+            <li><i class="icofont-check"></i> Miracle Technical College</li>
+
+            <li><i class="icofont-check"></i> Chikulamayembe Women Forum</li>
+            <li><i class="icofont-check"></i> Village Bank Groups</li>
+            <li><i class="icofont-check"></i> Local Farmers from JTI,TAMA,NASFARM,LiMBE LEAF and more</li>
+
+            </ul>
+          </div>
+        </div>
+               
+        <div class="row content">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="{% static 'website/assets/img/members/gfeatured-members-2.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-1 pt-3 pt-lg-0">
+            <h3>Achievements &amp; Certifications</h3>
+            <p class="font-italic">
+              Iam an enthusiastic, passionate trainer with a wealth of experience and have good Track record of Success in the Tevet Informal Skills training programs 
+            </p>
+
+            <ul>
+              <li><i class="icofont-check"></i>Competency Based Education & Training-CBET (TEVETA Certificate).</li>
+              <li><i class="icofont-check"></i> Trainers of Trainers -TOT (TEVETA Certificate)</li>
+              <li><i class="icofont-check"></i> IT Maintenance Training Course( TEVETA Certificate)</li>
+
+             <li><i class="icofont-check"></i>  Developed digital products/Software  -for the local farmers</li>
+
+             <li><i class="icofont-check"></i>  Introduced Programming  lessons for the youth </li>
+
+            </ul>
+            
+
+
+
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <img src="{% static 'website/assets/img/members/gfeatured-members-3.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-3 pt-lg-0">
+            <h3>Interests</h3>
+            <p>Apart from being a web developer, I enjoy most of my time being outdoors. I love going to Church,Visiting people at the hospital ,Wacthing /reading inspiring movies and magazines .You'll often find me around  My work place  in  Bolero/Rumphi  where I live</p>
+            <ul>
+              <li><i class="icofont-check"></i> I love Gospel Music ,riding my Motorcycle</li>
+              <li><i class="icofont-check"></i> Love to learn new skills</li>
+              <li><i class="icofont-check"></i> Love to code.</li>
+            </ul>
+          </div>
+        </div>
+
+
+
+
+        <div class="row content">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src=" {% static 'website/assets/img/members/gfeatured-members-4.jpg' %}" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-1 pt-3 pt-lg-0">
+            <h3>Experience</h3>
+            <p class="font-italic">
+              I have 12 years experience  as ICT TEVET INFORMAL SKILLS TRAINER &amp; INSTRUCTOR at Jenga Community Skills Development Centre.
+            </p>
+            <p>
+              Jenga Community Skills Development Center  works closely with TEVETA Malawi under the Informal Skills training programs.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Featured Members Section -->
+
+    <!-- ======= Members Section ======= -->
+    <section id="members" class="members">
+      <div class="container">
+
+        <div class="row">
+
+
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'website/assets/img/members/member-1.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Daniel K Jere </h4>
+                <span>Senior Instractor,Entrepreneur &amp; Django Python Web Developer</span>
+                <p>Iam an ambitious work-acholic with CBET Trainers Of Trainers TEVET Certificate,but apart from that ,very simple person. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'website/assets/img/members/member-2.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://twitter.com/danieljere7"><i class="icofont-twitter"></i></a>
+                  <a href="https://web.facebook.com/daniel.jere.39/"><i class="icofont-facebook"></i></a>
+                  <a href="https://www.instagram.com/danieljere3/"><i class="icofont-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/daniel-jere-b772a330/"><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Moses Gondwe </h4>
+                <span>Assistant Hardware Repair  Instractor </span>
+                <p>He is an ambitious work-acholic with  TEVET Certificate of Competence,but apart from that ,very simple guy.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <div class="member-img">
+                <img src="{% static 'website/assets/img/members/member-3.jpg' %}" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="icofont-twitter"></i></a>
+                  <a href=""><i class="icofont-facebook"></i></a>
+                  <a href=""><i class="icofont-instagram"></i></a>
+                  <a href=""><i class="icofont-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Lightwel Chirambo </h4>
+                <span>Assistant Computer Programming  Instractor  </span>
+                <p>He is  an ambitious work-acholic with  TEVET Certificate of Competence,but apart from that ,very simple guy.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Members Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+     
+
+       <h3>Nu-Tech  &amp; Management Services</h3>
+      <p>We Love to Code .</p>
+
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+
+         &copy; Copyright <strong><span>2019 Daniel Jere.</span>
+        </strong>. All Rights Reserved
+      </div>
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'website/assets/vendor/jquery/jquery.min.js' %}
+"></script>
+  <script src="{% static 'website/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}
+"></script>
+  <script src="{% static 'website/assets/vendor/jquery.easing/jquery.easing.min.js' %}
+"></script>
+  <script src="{% static 'website/assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/venobox/venobox.min.js' %}"></script>
+  <script src="{% static 'website/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}
+"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'website/assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
